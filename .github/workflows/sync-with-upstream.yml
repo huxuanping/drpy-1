@@ -29,9 +29,9 @@ jobs:
         target_sync_branch: master
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GH_PAT }}
-        upstream_sync_branch: master
-        upstream_sync_repo: qq_32394351/dr_py
-        host_domain: gitcode.net
+        upstream_sync_branch: main
+        upstream_sync_repo: heroaku/drpy
+        host_domain: github.com
 
     # Step 3: Display a sample message based on the sync output var 'has_new_commits'
     - name: New commits found
